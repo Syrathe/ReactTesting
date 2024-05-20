@@ -1,7 +1,7 @@
-import Onboarding from "../components/Onboarding";
+import OrderStatusSelector from '../components/OrderStatusSelector'
 
 const PlaygroundPage = () => {
-  return <Onboarding />;
-};
+  return <OrderStatusSelector onChange={console.log} /> //this will receive value prop and console.log() the value without explicitly stating it
+}
 
-export default PlaygroundPage;
+export default PlaygroundPage
